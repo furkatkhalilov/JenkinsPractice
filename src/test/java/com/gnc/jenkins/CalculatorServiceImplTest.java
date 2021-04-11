@@ -62,7 +62,7 @@ class CalculatorServiceImplTest {
         int num1 = 5;
         int num2 = 10;
         int expectedResult = 5-10;
-        int result = calculatorService.minusFunction(6, 10);
+        int result = calculatorService.minusFunction(5, 10);
 
         Assertions.assertEquals(result, expectedResult);
 
