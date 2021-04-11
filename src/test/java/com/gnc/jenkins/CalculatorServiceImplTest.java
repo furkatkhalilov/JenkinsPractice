@@ -37,34 +37,34 @@ class CalculatorServiceImplTest {
         Assertions.assertEquals(result, expectedResult);
     }
 
-    @Test
-    void divideFunctionWith0Divident() {
-        int num1 = 10;
-        int num2 = 0;
-        int expectedResult = 0;
-        int result = calculatorService.divideFunction(10, 0);
-
-        Assertions.assertEquals(result, expectedResult);
-    }
-
-    @Test
-    void multiplyFunction() {
-        int num1 = 5;
-        int num2 = 10;
-        int expectedResult = 5*10;
-        int result = calculatorService.multiplyFunction(5, 10);
-
-        Assertions.assertEquals(result, expectedResult);
-
-    }
-    @Test
-    void subtractFunction() {
-        int num1 = 5;
-        int num2 = 10;
-        int expectedResult = 5-10;
-        int result = calculatorService.minusFunction(5, 10);
-
-        Assertions.assertEquals(result, expectedResult);
-
-    }
+//    @Test
+//    void divideFunctionWith0Divident() {
+//        int num1 = 10;
+//        int num2 = 0;
+//        int expectedResult = 0;
+//        int result = calculatorService.divideFunction(10, 0);
+//
+//        Assertions.assertEquals(result, expectedResult);
+//    }
+//
+//    @Test
+//    void multiplyFunction() {
+//        int num1 = 5;
+//        int num2 = 10;
+//        int expectedResult = 5*10;
+//        int result = calculatorService.multiplyFunction(5, 10);
+//
+//        Assertions.assertEquals(result, expectedResult);
+//
+//    }
+//    @Test
+//    void subtractFunction() {
+//        int num1 = 5;
+//        int num2 = 10;
+//        int expectedResult = 5-10;
+//        int result = calculatorService.minusFunction(5, 10);
+//
+//        Assertions.assertEquals(result, expectedResult);
+//
+//    }
 }
